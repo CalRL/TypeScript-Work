@@ -1,0 +1,25 @@
+{
+  "name": "discord.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsx --watch --tsconfig ./tsconfig.json ./src/index.ts",
+    "build": "npx tsc",
+    "start": "node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "discord.js": "^14.13.0"
+  }
+}
